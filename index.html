@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yasser & Heba | Wedding</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ملف الصوت: ضع رابط الأغنية المباشر هنا في src -->
+  <audio id="audioPlayer" src="https://files.catbox.moe/h38n6y.mpeg"></audio>
+
+  <div class="container">
+
+    <div class="spotify-card">
+
+      <!-- Wedding Cover -->
+      <div class="cover">
+        <div class="overlay"></div>
+
+        <div class="cover-text">
+          <span>THE BEGINNING OF FOREVER</span>
+          <h1>Yasser<br>& Heba</h1>
+          <p>01 • 10 • 2026</p>
+        </div>
+      </div>
+
+      <!-- Song Info -->
+      <div class="song-info">
+        <div>
+          <h2>Yasser & Heba</h2>
+          <p>Our Wedding Day ♡</p>
+        </div>
+
+        <div class="heart" id="heartBtn">♡</div>
+      </div>
+
+      <!-- Progress -->
+      <div class="progress-area">
+        <div class="progress" id="progressContainer">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="time">
+          <span id="currentTime">0:00</span>
+          <span id="totalDuration">3:30</span>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls">
+
+        <button class="control" id="prevBtn" title="Rewind 10s">↶</button>
+
+        <button class="play-btn" id="playBtn">
+          ▶
+        </button>
+
+        <button class="control" id="nextBtn" title="Forward 10s">↷</button>
+
+      </div>
+
+      <!-- Wedding Details -->
+      <div class="details">
+
+        <div class="detail-box">
+          <span>DATE</span>
+          <strong>Thursday<br>01 October 2026</strong>
+        </div>
+
+        <div class="detail-box">
+          <span>TIME</span>
+          <strong>7:00 PM<br>— 11:00 PM</strong>
+        </div>
+
+        <div class="detail-box">
+          <span>VENUE</span>
+          <strong>Virginia  Hall<br>Abbassia</strong>
+        </div>
+
+        <div class="detail-box">
+          <span>EVENT</span>
+          <strong>Our Wedding<br>Celebration</strong>
+        </div>
+
+      </div>
+
+      <!-- Countdown -->
+      <div class="countdown">
+
+        <h3>COUNTDOWN TO OUR DAY</h3>
+
+        <div class="timer">
+
+          <div>
+            <strong id="days">00</strong>
+            <small>DAYS</small>
+          </div>
+
+          <div>
+            <strong id="hours">00</strong>
+            <small>HOURS</small>
+          </div>
+
+          <div>
+            <strong id="minutes">00</strong>
+            <small>MINUTES</small>
+          </div>
+
+          <div>
+            <strong id="seconds">00</strong>
+            <small>SECONDS</small>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Buttons -->
+      <div class="buttons">
+
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=Gaudinia+Hall+Abbassia"
+          target="_blank">
+          📍 View Location
+        </a>
+
+        <button onclick="saveDetails()">
+          ♡ Save Details
+        </button>
+
+      </div>
+
+    </div>
+
+    <p class="footer">
+      WITH LOVE • YASSER & HEBA
+    </p>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
